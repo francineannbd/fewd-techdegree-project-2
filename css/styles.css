@@ -35,10 +35,11 @@ p {
     text-align: center;
 }
 
-li {
+.name,
+.main-nav,
+.main-nav li {
     list-style-type: none;
     display: inline;
-    padding: 0 10px; 
 }
 
 a {
@@ -92,7 +93,7 @@ a {
 
 /* Float Clearfix-----*/
 
-.group:after {
+.group::after {
     content: "";
     display: table;
     clear: both;
