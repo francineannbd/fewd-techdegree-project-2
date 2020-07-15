@@ -1,0 +1,133 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+/* === Header Styles ===*/
+
+.main-header {
+    text-align: center;
+}
+
+.name {
+    margin: 30px 0;
+}
+
+.intro {
+    margin: 20px 10px;
+    color: #808080;
+}
+
+.profile-image {
+    width: 200px;
+    margin: 20px 0 5px 0;
+}
+
+/* === Navigation ===*/
+
+.main-nav li,
+.footer-nav li {
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}  
+
+.main-nav {
+    padding-left: 0;
+}
+    
+.main-nav li {
+    background-color: white;
+    margin: 5px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.875em;
+}
+
+.main-nav a,
+.footer-nav a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+/* === Main Styles ===*/
+
+.portfolio-image {
+    width: 280px;
+    margin-top: 30px;
+}
+
+.portfolio-title {
+    padding: 30px 0;
+    font-size: 0.875em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 0.875em;
+}
+
+.primary {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+.secondary {
+    text-align: center;
+}
+
+.secondary p {
+    color: #808080;
+    font-size: 0.875em;
+}
+
+.contact-info {
+    padding: 30px 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.875em;
+}
+
+.more-info {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+/* === Footer Styles === */
+
+footer {
+    border-top: 2px solid #808080;
+    width: 90%;
+}
+
+
+
+
+/* ===============
+  Media Queries 
+=============== */
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
