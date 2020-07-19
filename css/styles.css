@@ -17,6 +17,10 @@ body {
 
 .name {
     margin: 30px 0;
+    color: #ffb6c1;
+    text-shadow: 2px 2px 1px #808080;
+    font-family: 'Parisienne', cursive;
+    font-size: 2.5em;
 }
 
 .intro {
@@ -56,6 +60,11 @@ body {
     color: #000;
     display: block;
 }
+
+.main-nav a:hover,
+.footer-nav a:hover {
+    color: #ff1493;
+} 
 
 /* === Main Styles ===*/
 h3 {
@@ -128,6 +137,8 @@ footer {
     float: left;
     margin-top: 0;
     font-size: 0.75em;
+    color: #f08080;
+    font-family: 'Parisienne', cursive;
 }
 
 footer li:first-child {
@@ -239,20 +250,61 @@ footer li:nth-child(4) {
 
 @media (min-width: 1024px) {
 
+    .name {
+        float: left;
+    }
+
+    .main-nav {
+        float: right;
+        margin-top: 30px;
+    }
+    
+    .main-header {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .intro {
+        margin-left: 0;
+        font-size: 1.43em;
+    }
+
+    .profile-image {
+        width: 400px;
+        margin-right: 0;
+    }
+
+    .portfolio-title {
+        font-size: 1em;
+    }
+
+    .primary {
+        width: 95%;
+        margin: auto;
+    }
+
+    .top-article,
+    .bottom-article {
+        float: left;
+        margin: 16px;
+        width: 30%;
+        padding: 10px;
+    }
+
+    .content,
+    h3,
+    .portfolio-image {
+        width: 100%;
+    }
+    
+    .secondary p {
+        width: 55%;
+    }
+
+    .footer-name {
+        font-size: 1em;
+    }
+    
+
+
 }
-
-
-
-
-
-
-
-/* article,
-img,
-p,
-header,
-nav,
-li,
-h3 {
-    border: red solid 2px;
-} */
